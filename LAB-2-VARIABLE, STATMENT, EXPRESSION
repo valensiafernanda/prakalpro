@@ -1,0 +1,33 @@
+#NAMA: VALENSIA FERNANDA HAM AYOMI
+#NIM: 71200561
+#UNIVERSITAS KRISTEN DUTA WACANA
+
+#sumber soal: buku wangsit latihan UN
+'''Buatlah program komputer yang dapat membuat user menyelesaikan 
+soal berikut. Sebuah benda bermassa 4 kg mula-mula diam, kemudian 
+bergerak lurus dipercepat 3 m/s^2. Usaha yang diubah menjadi
+energi kinetik selama 2 sekon adalah...
+catatan:
+Ek = 1/2*m*(a*t)^2
+
+Ek = Energi kinetik (J)
+m = massa (kg)
+a = percepatan (m/s^2)
+t = waktu (s)
+'''
+
+'''
+Input: m = 4 kg; a = 3 m/s^2; t = 2 sekon
+
+Proses: 1/2*m*(a*t)**2
+
+Output: besar energi kinetik dalam satuan Joule
+'''
+
+m = int(input('Berapa massa (kg) dari benda tersebut: '))
+a = int(input('Berapa percepatan (m/s^2) dari benda tersebut: '))
+t = int(input('Berapa lama waktu (sekon) yang dibutuhkan: '))
+
+Ek = 1/2 * m *(a*t)**2
+
+print('Usaha yang diubah menjadi energi kinetik selama ', t,' sekon adalah ',Ek,' J')
